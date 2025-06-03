@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1429</width>
+    <height>629</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="displayarea" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-360</x>
+      <y>10</y>
+      <width>831</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(154, 103, 53);</string>
+    </property>
+    <widget class="QWidget" name="stackVisualArea" native="true">
+     <property name="geometry">
+      <rect>
+       <x>522</x>
+       <y>9</y>
+       <width>301</width>
+       <height>473</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QComboBox" name="comboBox1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>510</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+ background-color: #1abc9c;
+  color: white;
+  border-radius: 10px;
+padding: 10px;
+  font-weight: bold;
+ box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>510</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+ background-color: #1abc9c;
+  color: white;
+  border-radius: 10px;
+padding: 10px;
+  font-weight: bold;
+ box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>No item to select</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pop">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>510</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+ background-color: #1abc9c;
+  color: white;
+  border-radius: 10px;
+padding: 10px;
+  font-weight: bold;
+ box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+QPushButton:hover {
+    background-color: #2980b9;
+    border: 2px solid #1abc9c;
+    transform: scale(1.05); 
+}</string>
+    </property>
+    <property name="text">
+     <string>pop/delete rear</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::EditClear"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="search">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>510</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+ background-color: #1abc9c;
+  color: white;
+  border-radius: 10px;
+padding: 10px;
+  font-weight: bold;
+ box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+QPushButton:hover {
+    background-color: #2980b9;
+    border: 2px solid #1abc9c;
+    transform: scale(1.05); 
+}</string>
+    </property>
+    <property name="text">
+     <string>search</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::EditFind"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="front">
+    <property name="geometry">
+     <rect>
+      <x>1190</x>
+      <y>500</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+ background-color: #1abc9c;
+  color: white;
+  border-radius: 10px;
+padding: 10px;
+  font-weight: bold;
+ box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}</string>
+    </property>
+    <property name="text">
+     <string>insert front</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="frontdel">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>500</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+ background-color: #1abc9c;
+  color: white;
+  border-radius: 10px;
+padding: 10px;
+  font-weight: bold;
+ box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}</string>
+    </property>
+    <property name="text">
+     <string>delete front</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditValue">
+    <property name="geometry">
+     <rect>
+      <x>1310</x>
+      <y>510</y>
+      <width>113</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+QPushButton {
+ background-color: #1abc9c;
+  color: white;
+  border-radius: 10px;
+padding: 10px;
+  font-weight: bold;
+ box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>Enter a vlaue</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="push">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>510</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+ background-color: #1abc9c;
+  color: white;
+  border-radius: 10px;
+padding: 10px;
+  font-weight: bold;
+ box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+QPushButton:hover {
+    background-color: #2980b9;
+    border: 2px solid #1abc9c;
+    box-shadow: 0px 0px 10px #1abc9c; /* Simulated glow, may require custom widget */
+}</string>
+    </property>
+    <property name="text">
+     <string>push/insert rear</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::ListAdd"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clear">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>510</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+ background-color: #1abc9c;
+  color: white;
+  border-radius: 10px;
+padding: 10px;
+  font-weight: bold;
+ box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+QPushButton:hover {
+    background-color: #2980b9;
+    border: 2px solid #1abc9c;
+    transform: scale(1.05); 
+}</string>
+    </property>
+    <property name="text">
+     <string>clear all</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::EditDelete"/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="displayarea_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>10</y>
+      <width>471</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(154, 103, 53);</string>
+    </property>
+    <widget class="QWidget" name="linearqueuearea" native="true">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>10</y>
+       <width>291</width>
+       <height>473</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="displayarea_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>10</y>
+      <width>481</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(154, 103, 53);</string>
+    </property>
+    <widget class="QWidget" name="circularqueuearea" native="true">
+     <property name="geometry">
+      <rect>
+       <x>462</x>
+       <y>9</y>
+       <width>16</width>
+       <height>473</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1429</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
